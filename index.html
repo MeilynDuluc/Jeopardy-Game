@@ -1,39 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jeopardy</title>
-</head>
-<body>
-    <div class="img-background"></div>
-    <button id="open"> Let's Play!
-        
-    </button>
-
-    <div class="modal-container">
-        <div class="modal">
-            <h1>LET'S PLAY JEOPARDY</h1>
-            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam a at earum cum placeat ducimus alias unde voluptate cupiditate eveniet, veniam accusantium quas? Nihil cupiditate accusamus placeat culpa magni minima!</P>
-            <button id="close">Begin
-
-            </button>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Modal Practice</title>
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="style.css">
+    <!-- JavaScript -->
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <button class="modal-buttons" id="openModal">About the Game</button>
+    <div id="modal">
+      <div id="modal-textbox"> 
+        <h1>Learn to Play Bridge</h1>
+        <p>
+          Bridge is played with four people sitting at a card table using a standard
+          deck of 52 cards (no jokers). The players across from each other form
+          partnerships as North‑South and East‑West.
+        </p>
+        <p>
+          Draw cards to select the person to deal the cards (the dealer). This person
+          distributes the cards face down, in clockwise rotation one at a time, until
+          each player at the table has a hand consisting of 13 cards.
+        </p>
+        <p>
+          After the play of each deal is completed, the opportunity to deal moves around
+          the table clockwise so that each person has a turn to deal out the cards.
+        </p>
+        <div id="modal-footer">
+          <button class="modal-buttons" id="close">Close</button>
         </div>
+      </div>
     </div>
-    
-    </body>
-
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-        }
-        .img-background {
-            background-image: url('https://www.jeopardy.com/sites/default/files/styles/article_image_960_/public/2020-09/2_empty_set2.jpg?itok=Orwp0_T6');
-            background-size: cover;
-            background-repeat: no-repeat;
-            height: 100vh;
-        }
-    </style>
+  </body>
 </html>
