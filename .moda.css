@@ -28,6 +28,18 @@ body{
     align-items: center;
     
 }
+.close-modal{
+  color: whitesmoke;
+  background-color: blue;
+  font-size: 18px;
+  font-family: 'Bungee Inline', cursive;
+  
+}
+
+.close-modal:hover{
+  cursor: pointer;
+}
+ 
 
 
 
