@@ -12,7 +12,7 @@
     <title>Jeopardy</title>
 </head>
 <body>
-    
+    <!-- INTRO -->
     <div id="modal">
         <div class="text">
             <h1 style="font-family: 'Bungee Inline', cursive;">Let's Play Jeopardy!</h1>
@@ -21,29 +21,51 @@
         </div>
         
     </div>
-
+<!-- GAME BOARD -->
     <div class="game">
         <header class="top">
             <h1>JEOPARDY</h1>
-            <p class="score">score
+            <p class="score" style="align-items: center;">score
                 <span class="score-count"></span>
+        
             </p>
+            <div class="board">
+                <div id="topicF">Food & Drinks</div>
+                    <div class="questions100F">100</div>
+                    <div class="questions200F">200</div>
+                    <div class="questions300F">300</div>
+                    <div class="questions400F">400</div>
+                    <div class="questions500F">500</div>
+                <div id="topicS">Sports</div>
+                    <div class="questions100S">100</div>
+                    <div class="questions200S">200</div>
+                    <div class="questions300S">300</div>
+                    <div class="questions400S">400</div>
+                    <div class="questions500S">500</div>
+                <div id="topicA">Animals</div>
+                    <div class="questions100A">100</div>
+                    <div class="questions200A">200</div>
+                    <div class="questions300A">300</div>
+                    <div class="questions400A">400</div>
+                    <div class="questions500A">500</div>
+
+
+            </div>
+
+            <div>
+                <div id="question-modal">
+                    <div class="text-box">
+                        
+                    </div> 
+                 </div>
+                    <div class="answer-box"> 
+                        <input name="user-answer" type="text">
+                        <button id="submit">Answer</button>
+                     </div>
+                </div>
+            </div>
+            </div>
         </header>
-    </div>
-
-    <div class="board">
-
-    </div>
-
-    <div class="card-modal">
-        <div class="inner-card-modal">
-            <h2 class="clue">
-            </h2>
-            <form autocomplete="off">
-                <input name="user-answer" type="text" />
-                <button type="submit">Answer</button>
-             </form>
-        </div>
     </div>
 </body>
 </html>
