@@ -55,7 +55,12 @@ answerBoxEl.style.display= "block"
 }
 
 const open300f = () => {
+  console.log (categories[0].questions[2])
+  questionModalEl.style.display = "block";
+  questionModalEl.innerHTML = "Aromatics, like garlic & fennel, are key to this Middle Eastern rice dish with a 5-letter name." 
+  answerBoxEl.style.display= "block"
   
+
 }
 
 const open400f = () => {
@@ -125,7 +130,8 @@ question300a.addEventListener("click", open300a)
 question400a.addEventListener("click", open400a)
 question500a.addEventListener("click", open500a)
 submitBtn.addEventListener("click", () => {
-  prompt('correct');
+  alert('correct')
+  
   
 })
 
